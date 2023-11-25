@@ -1,0 +1,46 @@
+.footer {
+  background-image: linear-gradient(
+    #cd1010,
+    #e64545,
+    #f46c6c,
+    #e64545,
+    #cd1010
+  );
+  border-top: 0.15rem solid #000000;
+  display: flex;
+  flex-flow: column;
+  margin-top: 1rem;
+  width: 100%;
+}
+.footer div {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  display: flex;
+  width: 100%;
+}
+
+.icon a {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem;
+  padding: 5px;
+  width: 4rem;
+}
+
+.img_icon {
+  border: none;
+  height: 1.5rem;
+  width: 2rem;
+}
+
+.footer ul li a:hover {
+  background: none;
+}
+
+.icon a:hover .img_icon,
+.icon a:hover {
+  height: 2rem;
+  width: 2.5rem;
+}

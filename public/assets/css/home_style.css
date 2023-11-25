@@ -1,0 +1,65 @@
+body {
+  background-image: linear-gradient(
+    #084f00dc,
+    #12b000dc,
+    #0d810070,
+    #12b000dc,
+    #084f00dc
+  );
+}
+img {
+  border: 0.1rem solid #ffffff;
+  border-radius: 1rem;
+  /* box-shadow: 3px 3px 7px 5px white, 11px 11px 14px 3px black; */
+  /* height: 30rem;
+    width: 100%; */
+}
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+#destaque_texto h1 {
+  background: #9f0303;
+  border-bottom: 3px solid black;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px white, 10px 10px 14px black;
+  display: flex;
+  font-size: 1.5rem;
+  height: 2rem;
+  justify-content: center;
+  letter-spacing: 11px;
+  margin: 2%;
+  width: 90vw;
+}
+
+.destaques {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.destaques div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  width: 90%;
+}
+.img {
+  height: 13rem;
+  width: 23rem;
+}
+div h2 {
+  align-items: center;
+  background: #9f0303;
+  border-bottom: 3px solid black;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px white, 10px 10px 14px black;
+  display: flex;
+  height: 2rem;
+  justify-content: center;
+  margin-bottom: 2%;
+  width: 17rem;
+}
